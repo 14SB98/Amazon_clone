@@ -1,6 +1,27 @@
 *{
     margin: 0;
 }
-.navbar{
+ul{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
     background-color: black;
+    font-family: 'Noto Sans', sans-serif;
+    overflow:hidden;
+    border: 10px ridge gray;
+    height: 70px;
+} 
+li{
+    float: left;
+    list-style-type: none;
+    
+} 
+li a:hover{
+    border: 1px solid white;
+}
+a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
 }
